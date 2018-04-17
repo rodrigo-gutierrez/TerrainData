@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>21d8cdff-1e78-4760-b225-ff848734140d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TerrainData.py</StartupFile>
+    <StartupFile>studentMain.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="TerrainData.py" />
+    <Compile Include="ClassifyNB.py" />
+    <Compile Include="class_vis.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="prep_terrain_data.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="studentMain.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
