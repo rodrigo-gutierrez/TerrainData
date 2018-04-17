@@ -8,4 +8,8 @@ def classify(features_train, labels_train):
     
     clf = sk.GaussianNB()
     clf.fit(features_train, labels_train)
+    #pred = clf.predict(features_test)
+
+    #accuracy = clf.score(features_test, labels_test)
+    #print(accuracy)
     return clf
